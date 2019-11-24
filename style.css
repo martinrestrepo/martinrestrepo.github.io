@@ -7,76 +7,156 @@
 }
 
 html{
-	padding: 30px;
-
+	padding: 1%;
+	list-style: none;
+	text-decoration: none;
 }
 
 header{
-	padding: 20px;
-	background-color: #d4d4af;
+	padding: 2%;
+	/*background-color: #aec6cf;*/
 	height: 60px;	
 	display: block;
 }
 
 body{
+	font-family: 'Josefin Slab';font-size: 2vw;
 
-	font-family: 'Josefin Slab';font-size: 22px;
 }
 
-.header_container{
+.wrapper_header{
 	color: black;
 	display: table;
-	float:left;
 	height: 100%;
-	vertical-align: middle;
-
-}
-.header_container div{
-	display: inline-block;
-	padding-right: 50px;
-	vertical-align: middle;
-
-	
-}
-
-.header_container p{
-	font-size: 20px;
-	vertical-align: middle;
+	width: 100%;
 	font-weight: bold;
+	font-size: 24px;
+	display: grid;
+	grid-template-columns: 59% 40%;
+	grid-gap: 1%;
+	align-items: center;
+
 
 }
-
-.header_container2{
-	height: 100%;
-	vertical-align: bottom;
-	float:right;
+.wrapper_header div{
+	display: inline-block;
+	vertical-align: middle;
 	
-	
-
 }
+
+.header_container2 {
+	float: right;
+	vertical-align: middle;
+	color: black;
+}
+
 .header_container2 div{
-	
-	padding-right: 50px;
-	vertical-align: bottom;
+	float: right;
+	padding-left: 3vw;
+	vertical-align: middle;
 
+}
+
+.header_container2 a{
+	color: black;
+	vertical-align: middle;
+}
+
+.wrapper1{
+	margin-bottom: 1%;
+	margin-top: 1%;
+	display: grid;
+	grid-template-columns: 59% 40%;
+	grid-gap: 1%;
+}
+
+.wrapper2{
+	display: grid;
+	grid-template-columns: 40% 59%;
+	grid-gap: 1%;
+}
+
+.background{
+	color: black;
+	display: table;
+	height: 100%;
+	width: 100%;
+	font-weight: bold;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 1%;
+	align-items: center;
+
+}
 	
+.background div{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 1%;
+	
+
+} 
+
+.contact_form_shell{
+	float: right;
+	vertical-align: middle;
+	color: black;
+	background-image: url(contact.jpg);
+	background-size: cover;
+	background-position: center;
+	height:650px;
+
+}
+.contact_form{
+	height:15vw;
+	width: 30vw;
+	position: absolute;
+    top: 45%;
+    left: 50%;
+  	margin: auto;
+	background: white;	
+	opacity: 0.8;
+    left:0;
+    right:0;
+    text-align: center;
+    text-overflow: auto;    
+}
+
+.contact_form p{
+	font-size: 1.4vw;
+	margin: 2vw;
+	text-decoration: none;
+	color: black;
 }
 
 
+/*
 
 
 
-
-
-
-
-
-
-
-
-.row1{
-	margin-top: 30px;
-	margin-top: 30px;
-	height: 600px;
 	background-color: #aec6cf
-}
+	background-color: #b7c68b
+	background-color: #e8b4a2
+	background-color: #d4d4af
+	background-color: #fdfd96
+
+*/
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
